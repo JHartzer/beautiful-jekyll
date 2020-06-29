@@ -16,7 +16,6 @@
 
   {% include gtag.html %}
   {% include gtm_head.html %}
-  {% include google_analytics.html %}
 
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
@@ -118,9 +117,5 @@
   {% include matomo.html %}
   {% endif %}
 
-  {% if page.comments and site.staticman.repository and site.staticman.branch %}
-  <!-- Staticman -->
-  <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
-  {% endif %}
 
 </head>
