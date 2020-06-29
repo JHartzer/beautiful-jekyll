@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Adventures
 ---
 
 ![Adventures](/assets/img/Hiking.png)
