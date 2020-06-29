@@ -1,9 +1,10 @@
 ---
 layout: page
+title: Blog
 ---
 
 <div class="posts-list">
-  {% for post in site.posts %}
+  {% for post in site.blogs %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
       <h2 class="post-title">{{ post.title }}</h2>
