@@ -2,6 +2,7 @@
 layout: post
 title: How I built a Website using Jekyll
 image: /assets/img/jekyll.png
+tags: [Jekyll]
 ---
 
 A mechanical engineer with a website, how peculiar you might say! I promise it's
@@ -38,10 +39,6 @@ to process templates. You can read jekyll's documentation
 are the use of liquid variables to iterate through build pages, and define
 how certain pages are to be treated.  
 
-Take the main page of the site, for example. The pages are proceedurally 
-generated using [pagination](https://jekyllrb.com/docs/pagination/) so overflow
-to multiple pages is handled, and all files from my `_posts/` folder are 
-automatically generated into pages. 
 
 ## In Short
 
