@@ -214,9 +214,9 @@ plugins:
   - jekyll-sitemap
 
 collections:
-  projects:
+  blogs:
     output: true
-    permalink: /Projects/:name
+    permalink: /Blog/:name
 
 
 # Beautiful Jekyll / Dean Attali
