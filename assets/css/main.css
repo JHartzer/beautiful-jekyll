@@ -474,14 +474,14 @@ footer .footer-custom-content {
 }
 .post-image {
   float: right;
-  height: 16rem;
+  /* height: 16rem; */
   width: 16rem;
   margin-top: -2.1875rem;
   /* filter: grayscale(90%); */
 }
 
 .post-image img {
-  height: 16rem;
+  /* height: 16rem; */
   width: 16rem;
 }
 .post-preview .post-read-more {
