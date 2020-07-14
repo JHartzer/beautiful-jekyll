@@ -14,9 +14,9 @@ My main research is estimation and how it applies to autonomous vehicles. I work
 
 ## Journal Articles
 
-1. T. de Wulff, J. Hartzer, O. Röhrig and O. Yürük, **“Initial steps in the classification of maximal mediated sets,”** <em>Journal of Scientific Computation: Effective Methods in Algebraic Geometry,</em> vol. 17, 2019.
+1. T. de Wulff, J. Hartzer, O. Röhrig and O. Yürük, **“Initial steps in the classification of maximal mediated sets,”** <em>Journal of Scientific Computation: Effective Methods in Algebraic Geometry,</em> vol. 17, 2019. [Preprint](https://arxiv.org/abs/1910.00502)
 
-2. J. Hartzer and C. O’Neill, **“On the periodicity of irreducible elements in arithmeticalcongruence monoids,”** <em>Integers,</em> vol. 17, 2017.
+2. J. Hartzer and C. O’Neill, **“On the periodicity of irreducible elements in arithmeticalcongruence monoids,”** <em>Integers,</em> vol. 17, 2017. [Preprint](https://arxiv.org/abs/1606.00376)
  
 
 ## Conference Publications
