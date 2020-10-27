@@ -38,6 +38,10 @@ Fusing these corrected GPS measurements with the higher rate encoders on the whe
 
 The results of this project were a functioning prototype system that is capable of deploying multiple cones without collision to a wedge shape formation while remaining within lane lines. The system is also capable of operating in GPS-denied environments. 
 
+# Video
+
+[![Autonomous Cone Placement](http://img.youtube.com/vi/0hgOc2csaWE/0.jpg)](https://youtu.be/0hgOc2csaWE "Autonomous Cone Placement")
+
 # Citation:
 
 J. Hartzer and S. Saripalli, “Autocone:  An omnidirectional robot for lane-level cone placement,” inProceedings of the IEEE Intelligent Vehicles Symposium, (Las Vegas, NV), p. 440, 2020.
