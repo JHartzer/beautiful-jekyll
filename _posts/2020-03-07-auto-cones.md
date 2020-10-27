@@ -40,7 +40,7 @@ The results of this project were a functioning prototype system that is capable 
 
 # Video
 
-[![Autonomous Cone Placement](http://img.youtube.com/vi/0hgOc2csaWE/0.jpg)](https://youtu.be/0hgOc2csaWE "Autonomous Cone Placement")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0hgOc2csaWE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Citation:
 
