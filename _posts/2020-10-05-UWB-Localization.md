@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Collaborative Localization using Ultra-Wideband Ranging"
-author: Jacob Hartzer
 image: /assets/img/uwb/uwb_collab.png
+tags: [Localization]
 ---
 
 
