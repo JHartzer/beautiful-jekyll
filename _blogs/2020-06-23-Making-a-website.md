@@ -2,7 +2,7 @@
 layout: post
 title: How I built a Website using Jekyll
 image: /assets/img/jekyll.png
-tags: [Jekyll]
+tags: [Programming]
 ---
 
 A mechanical engineer with a website, how peculiar you might say! I promise it's

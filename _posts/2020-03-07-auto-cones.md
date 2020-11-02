@@ -2,6 +2,7 @@
 layout: post
 title:  Autonomous Cone Placement
 image: /assets/img/ConeSetup.png
+tags: [Localization]
 ---
 
 The Auto Cone project is an effort to develop cones that are capable of localizing and placing themselves to improve safety conditions for highway workers. These cones utilize RTK GPS and onboard localization filtering to produce decimeter-level accuracy in placing themselves in road conditions. Additionally, they are capable of transitioning through GPS-denied environments such as under bridges or overpasses. Pictured are two of the cones and the real-time kinematic (RTK) base station.
@@ -38,9 +39,13 @@ Fusing these corrected GPS measurements with the higher rate encoders on the whe
 
 The results of this project were a functioning prototype system that is capable of deploying multiple cones without collision to a wedge shape formation while remaining within lane lines. The system is also capable of operating in GPS-denied environments. 
 
-# Video
+# Videos
 
+Deployment: 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0hgOc2csaWE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+IV2020 Presentation:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cbcMwYcLUmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Citation:
 
