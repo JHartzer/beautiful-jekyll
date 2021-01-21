@@ -25,8 +25,10 @@ My main research is estimation and how it applies to autonomous vehicles. I work
 
 
 ## Thesis
+1. **"Decentralized Collaborative Localization using Ultra-Wideband Ranging"** Masters Thesis for Mechanical Engineering, Texas A&M Univeristy, 2020. [Thesis](\assets\pdf\Hartzer_thesis.pdf). 
 
-1. **"Shell Eco-marathon: Developing Texas A&M's First Ultra-Efficient Passenger Vehicle"** Undergraduate Thesis for Mechanical Engineering, Texas A&M Univeristy, 2019.
+
+2. **"Shell Eco-marathon: Developing Texas A&M's First Ultra-Efficient Passenger Vehicle"** Undergraduate Thesis for Mechanical Engineering, Texas A&M Univeristy, 2019. [Thesis](\assets\pdf\MEEN_402_Final_Report_draft.pdf). 
 
 
 ## Software
