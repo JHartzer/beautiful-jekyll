@@ -5,30 +5,45 @@ title: "Research"
 
 ![AutoCar](/assets/img/AutoCar.jpg)
 
-My main research is estimation and how it applies to autonomous vehicles. I work in both simulated and laboratory environments to test and deploy code. My key interests are
+My main research focus is estimation and calibration and how these topics apply to unmanned systems. I work in both
+simulated and laboratory environments to write, test, and deploy algorithms. My key interests are:
+- Filtering
+- Calibration
+- Localization
 
-- Collaborative Localization 
-- Filtering and Calibration 
-- Control System Design
+
+## Conference Publications
+
+1. J. Hartzer and S. Saripalli, **Vehicular Teamwork: Collaborative localization of Autonomous Vehicles,”**
+<em>in Proceedings of the IEEE International Intelligent Transportation Systems Conference,</em>
+(Indianapolis, IN), 2021, pp. 1077-1082.
+[arxiv](https://arxiv.org/pdf/2104.14106.pdf)
+
+2. J. Hartzer and S. Saripalli, **“Autocone: An omnidirectional robot for lane-level cone placement,”**
+<em>in Proceedings of the IEEE Intelligent Vehicles Symposium,</em>
+(LasVegas, NV), 2020, pp. 1663-1668.
+[arxiv](https://arxiv.org/pdf/2104.14103.pdf)
 
 
 ## Journal Articles
 
-1. T. de Wulff, J. Hartzer, O. Röhrig and O. Yürük, **“Initial steps in the classification of maximal mediated sets,”** <em>Journal of Scientific Computation: Effective Methods in Algebraic Geometry,</em> vol. 17, 2019. [Preprint](https://arxiv.org/abs/1910.00502)
+1. T. de Wulff, J. Hartzer, O. Röhrig and O. Yürük, **“Initial steps in the classification of maximal mediated sets,”**
+<em>Journal of Scientific Computation: Effective Methods in Algebraic Geometry</em>, vol. 17, 2019.
+[arxiv](https://arxiv.org/abs/1910.00502)
 
-2. J. Hartzer and C. O’Neill, **“On the periodicity of irreducible elements in arithmeticalcongruence monoids,”** <em>Integers,</em> vol. 17, 2017. [Preprint](https://arxiv.org/abs/1606.00376)
- 
-
-## Conference Publications
-
-1. J. Hartzer and S. Saripalli, **“Autocone: An omnidirectional robot for lane-levelcone placement,”** <em>in Proceedings of the IEEE Intelligent Vehicles Symposium,</em> (LasVegas, NV), p. 440, 2020.
-
-
-## Thesis
-1. **"Decentralized Collaborative Localization using Ultra-Wideband Ranging"** Masters Thesis for Mechanical Engineering, Texas A&M Univeristy, 2020. [Thesis](\assets\pdf\Hartzer_thesis.pdf). 
+2. J. Hartzer and C. O’Neill, **“On the periodicity of irreducible elements in arithmetical congruence monoids,”**
+<em>Integers,</em> vol. 17, 2017.
+[arxiv](https://arxiv.org/abs/1606.00376)
 
 
-2. **"Shell Eco-marathon: Developing Texas A&M's First Ultra-Efficient Passenger Vehicle"** Undergraduate Thesis for Mechanical Engineering, Texas A&M Univeristy, 2019. [Thesis](\assets\pdf\MEEN_402_Final_Report_draft.pdf). 
+## Theses
+1. **"Decentralized Collaborative Localization using Ultra-Wideband Ranging"**
+Masters Thesis for Mechanical Engineering, Texas A&M University, 2020.
+[Thesis](\assets\pdf\Hartzer_thesis.pdf).
+
+2. **"Shell Eco-marathon: Developing Texas A&M's First Ultra-Efficient Passenger Vehicle"**
+Undergraduate Thesis for Mechanical Engineering, Texas A&M University, 2019.
+[Thesis](\assets\pdf\MEEN_402_Final_Report_draft.pdf).
 
 
 ## Software
