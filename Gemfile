@@ -1,33 +1,27 @@
-# frozen_string_literal: true
-
-source "https://rubygems.org"
-
-gem "addressable",           ">= 2.8.0"
-gem "colorator",             ">= 1.1.0"
-gem "concurrent-ruby",       ">= 1.1.10"
-gem "em-websocket",          ">= 0.5.3"
-gem "eventmachine",          ">= 1.2.7"
-gem "ffi",                   ">= 1.15.5"
-gem "forwardable-extended",  ">= 2.6.0"
-gem "http_parser.rb",        ">= 0.8.0"
-gem "i18n",                  ">= 1.12.0"
-gem "jekyll-sass-converter", ">= 1.5.2"
-gem "jekyll-sitemap",        ">= 1.4.0"
-gem "jekyll-watch",          ">= 2.2.1"
-gem "jekyll",                ">= 3.9.2"
-gem "kramdown-parser-gfm",   ">= 1.1.0"
-gem "kramdown",              ">= 2.4.0"
-gem "liquid",                ">= 4.0.3"
-gem "listen",                ">= 3.7.1"
-gem "mercenary",             ">= 0.3.6"
-gem "pathutil",              ">= 0.16.2"
-gem "public_suffix",         ">= 4.0.7"
-gem "rake",                  ">= 12.3.3"
-gem "rb-fsevent",            ">= 0.11.1"
-gem "rb-inotify",            ">= 0.10.1"
-gem "rexml",                 ">= 3.2.5"
-gem "rouge",                 ">= 4.0.1"
-gem "safe_yaml",             ">= 1.0.5"
-gem "sass-listen",           ">= 4.0.0"
-gem "sass",                  ">= 3.7.4"
-gem "webrick"
+source 'https://rubygems.org'
+group :jekyll_plugins do
+    gem 'classifier-reborn'
+    gem 'jekyll'
+    gem 'jekyll-archives'
+    gem 'jekyll-diagrams'
+    gem 'jekyll-email-protect'
+    gem 'jekyll-feed'
+    gem 'jekyll-get-json'
+    gem 'jekyll-imagemagick'
+    gem 'jekyll-jupyter-notebook'
+    gem 'jekyll-link-attributes'
+    gem 'jekyll-minifier'
+    gem 'jekyll-paginate-v2'
+    gem 'jekyll-scholar'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-toc'
+    gem 'jekyll-twitter-plugin'
+    gem 'jemoji'
+    gem 'mini_racer'
+    gem 'unicode_utils'
+    gem 'webrick'
+end
+group :other_plugins do
+    gem 'feedjira'
+    gem 'httparty'
+end
