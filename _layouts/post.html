@@ -1,56 +1,75 @@
 ---
-layout: base
+layout: default
 ---
+<!-- _layouts/post.html -->
+{%- assign year = page.date | date: "%Y" -%}
+{%- assign tags = page.tags | join: "" -%}
+{%- assign categories = page.categories | join: "" -%}
 
-{% include header.html type="post" %}
+{% if page._styles %}
+<!-- Page/Post style -->
+<style type="text/css">
+  {{ page._styles }}
+</style>
+{% endif %}
 
-<div class="container-md">
-  <div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+<div class="post">
 
-      {% if page.gh-repo %}
-        {% assign gh_split =  page.gh-repo | split:'/'  %}
-        {% assign gh_user =  gh_split[0]  %}
-        {% assign gh_repo =  gh_split[1]  %}
-
-        <div id="header-gh-btns">
-          {% if page.gh-badge.size > 0 %}
-            {% for badge in page.gh-badge %}
-              {% case badge %}
-                {% when 'star'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'watch'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=watch&v=2&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'fork'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'follow'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
-              {% endcase %}
-            {% endfor %}
-          {% endif %}
-        </div>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
+    <p class="post-tags">
+      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+      {%- if tags != "" %}
+      &nbsp; &middot; &nbsp;
+        {% for tag in page.tags -%}
+        <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+          <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+          {% endfor -%}
       {% endif %}
 
-      <article role="main" class="blog-post">
-        {{ content }}
-      </article>
-
-      {% if page.social-share %}
-        {% include social-share.html %}
+      {%- if categories != "" %}
+      &nbsp; &middot; &nbsp;
+        {% for category in page.categories -%}
+        <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
+          <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+          {% endfor -%}
       {% endif %}
 
-      <ul class="pagination blog-pager">
-        {% if page.previous.url %}
-        <li class="page-item previous">
-          <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-        </li>
-        {% endif %}
-        {% if page.next.url %}
-        <li class="page-item next">
-          <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-        </li>
-        {% endif %}
-      </ul>
+    </p>
+  </header>
+
+  <article class="post-content">
+    {% if page.toc and page.toc.beginning %}
+    <div id="table-of-contents">
+      {% toc %}
     </div>
+    <hr>
+    {% endif %}
+    <div id="markdown-content">
+      {{ content }}
+    </div>
+  </article>
+
+  {%- if page.related_publications != null and page.related_publications.size > 0 -%}
+  {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
+  <h2>References</h2>
+  <div class="publications">
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
   </div>
+  {%- endif %}
+
+  {%- if site.related_blog_posts.enabled -%}
+    {%- if page.related_posts == null or page.related_posts -%}
+      {% include related_posts.html %}
+    {%- endif %}
+  {%- endif %}
+
+  {%- if site.disqus_shortname and page.disqus_comments -%}
+    {% include disqus.html %}
+  {%- endif %}
+  {%- if site.giscus and page.giscus_comments -%}
+    {% include giscus.html %}
+  {%- endif -%}
+
 </div>
