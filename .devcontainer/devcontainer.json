@@ -1,0 +1,11 @@
+{
+    "name": "al-folio-env",
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+    "build": {
+        "dockerfile": "../Dockerfile"
+    }
+}
