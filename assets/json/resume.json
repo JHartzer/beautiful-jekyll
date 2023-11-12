@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Jacob Hartzer",
+    "label": "GNC Engineer and Ph.D. Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "",
+    "phone": "",
+    "url": "https://jhartzer.github.io/",
+    "summary": "",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -16,62 +16,199 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "jacobhartzer",
+        "url": "https://www.linkedin.com/in/jacobhartzer/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Boeing Defense and Space",
+      "position": "Guidance, Navigation, and Control Engineer",
+      "location": "Huntsville, Alabama",
+      "startDate": "2019",
+      "endDate": "2021",
+      "summary": "",
       "highlights": [
-        "Relativity"
+        "Developed flight software simulation and optimal jet control algorithms.",
+        "Implemented real time motion compensation algorithms for visual guided systems.",
+        "Designed and implemented Monte-Carlo 6-DOF IMU error simulation with gyro-compassing.",
+        "Developed efficient gravity anomaly algorithm with numerical propagation.",
+        "Developed variable atmospheric model for use in simulation."
       ]
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker"
     },
     {
-      "language": "English",
-      "fluency": "Fluent"
+      "name": "Boeing Defense and Space",
+      "position": "Real-Time Software Engineer",
+      "location": "Huntsville, Alabama",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "",
+      "highlights": [
+        "Developed real-time C++ applications for flight software and control in an agile environment.",
+        "Design and implementation of multi-target software architecture.",
+        "Implemented control algorithms and developed unit and integration tests.",
+        "Modernized legacy Ada programming to C++.",
+        "Created automation tooling in MatLab and Python to aid development."
+      ]
+    },
+    {
+      "name": "Lockheed Martin Missiles and Fire Control",
+      "position": "Guidance, Navigation, and Control Engineer",
+      "location": "Dallas, Texas",
+      "startDate": "2021",
+      "summary": "",
+      "highlights": [
+        "Optimizing performance of missile fire control algorithms.",
+        "Supporting hardware-in-the-loop, flight test, and hardware test events.",
+        "Automating data processing and analysis at unit and integration level.",
+        "Integration of tactical software with 6-DOF monte-carlo simulations"
+      ]
     }
   ],
-  "interests": [],
+  "education": [
+    {
+      "institution": "Texas A&M University",
+      "url": "https://engineering.tamu.edu/mechanical/index.html",
+      "area": "Mechanical Engineering",
+      "location": "College Station, Texas",
+      "studyType": "Bachelors of Science",
+      "startDate": "2015-08",
+      "endDate": "2019-05",
+      "score": "3.93",
+      "courses": [
+        "Extended Kalman Filtering for Online Sensor Calibration and Localization"
+      ]
+    },
+    {
+      "institution": "Texas A&M University",
+      "url": "https://engineering.tamu.edu/mechanical/index.html",
+      "area": "Mechanical Engineering",
+      "location": "College Station, Texas",
+      "studyType": "Masters of Science",
+      "startDate": "2019-08",
+      "endDate": "2020-12",
+      "score": "3.75",
+      "courses": [
+        "Decentralized Collaborative Localization using Ultra-Wideband Ranging for Autonomous Vehicles"
+      ]
+    },
+    {
+      "institution": "Texas A&M University",
+      "url": "https://engineering.tamu.edu/mechanical/index.html",
+      "area": "Mechanical Engineering",
+      "location": "College Station, Texas",
+      "studyType": "Doctorate",
+      "startDate": "2021-01",
+      "endDate": "2025-05",
+      "score": "3.85",
+      "courses": [
+        "Development of a Highly Efficient Consumer Vehicle for the Shell Eco-Marathon Competition"
+      ]
+    }
+  ],
+  "Research Experience": [
+    {
+      "name": "Texas A&M Department of Mathematics",
+      "position": "Undergraduate Researcher",
+      "location": "College Station, Texas",
+      "startDate": "2015",
+      "endDate": "2017",
+      "summary": "Development of Python programs in multiple factorization theory and algebraic geometry",
+      "highlights": [
+        "Wrote Sage code for the analysis of Maximal Mediated Sets for polynomial optimization",
+        "Wrote Sage code to analyze Arithmetical Congruence Monoids"
+      ]
+    },
+    {
+      "name": "Texas A&M Department of Aerospace Engineering",
+      "position": "Research Assistant",
+      "location": "College Station, Texas",
+      "startDate": "2015",
+      "endDate": "2017",
+      "summary": "Research in and implementation of real-time computer vision techniques for autonomous control",
+      "highlights": [
+        "Worked on combining ORB-SLAM data with accelerometer data through a Kalman filter",
+        "Developed scripts for data processing and visualization"
+      ]
+    },
+    {
+      "name": "Texas A&M Unmanned Systems Lab",
+      "position": "Graduate Researcher",
+      "location": "College Station, Texas",
+      "startDate": "2015",
+      "endDate": "2017",
+      "summary": "Research in and implementation of real-time computer vision techniques for autonomous control",
+      "highlights": [
+        "Researching online calibration and localization of multiple sensors for autonomous systems",
+        "Researching the use of software for real-time sensor performance evaluation",
+        "Researching novel sensors for use in collaborative localization",
+        "Integrated differential GPS and filtering into the platform",
+        "Developed multiple packages for sensor communication",
+        "Developed autonomous omni-robot to improve highway safety"
+      ]
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "C++ "
+    },
+    {
+      "name": "Architecture Design"
+    },
+    {
+      "name": "MatLab"
+    },
+    {
+      "name": "Simulink"
+    },
+    {
+      "name": "Dynamic modelling"
+    },
+    {
+      "name": "Monte Carlo Simulation"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "ROS"
+    },
+    {
+      "name": "LabVIEW"
+    },
+    {
+      "name": "SolidWorks"
+    },
+    {
+      "name": "Fortran"
+    },
+    {
+      "name": "Ada"
+    }
+  ],
+  "languages": [],
+  "interests": [
+    {
+      "name": "Backpacking"
+    },
+    {
+      "name": "Rock Climbing"
+    },
+    {
+      "name": "Mountain Biking"
+    },
+    {
+      "name": "Guitar"
+    },
+    {
+      "name": "Piano"
+    }
+  ],
   "references": [],
   "projects": []
 }

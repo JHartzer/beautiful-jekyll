@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: GNC Engineer and Ph.D. Student
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_picture.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +16,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Howdy! My name is Jacob Hartzer, and I am a Mechanical Engineering PhD Student. I am originally from Austin, Texas, and also attended Texas A&M for my undergraduate and master's degrees in Mechanical Engineering. My background interests were originally in controls and dynamics, which slowly led me to estimation and filtering. My professional and research experience has also given me avenues to use coding skills to apply these interests to real-world problems in simulated and fielded environments.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently, I am researching localization and calibration techniques using kalman filter based methods. Specifically, I am trying to incorporate real time estimation of state with the monitoring of sensor calibration and health in a way that is optimal and computationally efficient. I am also interested in the development of monte-carlo simulations for algorithm validation, as well as open-source software packages to share this work.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Most of my work focuses on the simulation and estimation of complex dynamic systems. I spend much of my time in work and research coding custom models in a number of environments. This has allowed me to contribute to more accurate estimation and localization of these systems and improve the development of new devices with more accurate models. 

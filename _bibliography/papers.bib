@@ -1,84 +1,82 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+% @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{10018692,
+  author    = {Hartzer, Jacob and Saripalli, Srikanth},
+  booktitle = {2022 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR)},
+  title     = {Online Multi Camera-IMU Calibration},
+  year      = {2022},
+  volume    = {},
+  number    = {},
+  pages     = {360-365},
+  doi       = {10.1109/SSRR56537.2022.10018692},
+  abstract  = {This work presents a centralized multi-IMU filter framework with online intrinsic and extrinsic calibration for unsynchronized inertial measurement units that is robust against changes in calibration parameters. The novel EKF-based method estimates the positional and rotational offsets of the system of sensors as well as their intrinsic biases without the use of rigid body geometric constraints. Additionally, the filter is flexible in the total number of sensors used while leveraging the commonly used MSCKF framework for camera measurements. The filter framework has been validated using Monte Carlo simulation as well as experimentally. In both simulations and experiments, using multiple IMU measurement streams within the proposed filter framework outperforms the use of a single IMU in a filter prediction step while also producing consistent and accurate estimates of initial calibration errors. Compared to current state-of-the-art optimizers, the filter produces similar intrinsic and extrinsic calibration parameters for each sensor. Finally, an open source repository has been provided at this https URL containing both the online estimator and the simulation used for testing and evaluation.},
+  selected  = {true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{9304683,
+  author    = {Hartzer, Jacob and Saripalli, Srikanth},
+  booktitle = {2020 IEEE Intelligent Vehicles Symposium (IV)},
+  title     = {AutoCone: An OmniDirectional Robot for Lane-Level Cone Placement},
+  year      = {2020},
+  volume    = {},
+  number    = {},
+  pages     = {1663-1668},
+  doi       = {10.1109/IV47402.2020.9304683},
+  abstract  = {This paper summarizes the progress in developing a rugged, low-cost, automated ground cone robot network capable of traffic delineation at lane-level precision. A holonomic omnidirectional base with a traffic delineator was developed to allow flexibility in initialization. RTK GPS was utilized to reduce minimum position error to 2 centimeters. Due to recent developments, the cost of the platform is now less than $1,600. To minimize the effects of GPS-denied environments, wheel encoders and an Extended Kalman Filter were implemented to maintain lane-level accuracy during operation and a maximum error of 1.97 meters through 50 meters with little to no GPS signal. Future work includes increasing the operational speed of the platforms, incorporating lanelet information for path planning, and cross-platform estimation.},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{9564981,
+  author    = {Hartzer, Jacob and Saripalli, Srikanth},
+  booktitle = {2021 IEEE International Intelligent Transportation Systems Conference (ITSC)},
+  title     = {Vehicular Teamwork: Collaborative localization of Autonomous Vehicles},
+  year      = {2021},
+  volume    = {},
+  number    = {},
+  pages     = {1077-1082},
+  doi       = {10.1109/ITSC48978.2021.9564981},
+  abstract  = {This paper develops a distributed collaborative localization algorithm based on an extended kalman filter. This algorithm incorporates Ultra-Wideband measurements for vehicle to vehicle ranging, and shows improvements in localization accuracy where GPS typically falls short. The algorithm was first tested in a newly created open-source simulation environment that emulates various numbers of vehicles and sensors while simultaneously testing multiple localization algorithms. Predicted error distributions for various algorithms are quickly producible using the Monte-Carlo method and optimization techniques within MatLab. The simulation results were validated experimentally in an outdoor, urban environment. Improvements of localization accuracy over a typical extended kalman filter ranged from 2.9% to 9.3% over 180 meter test runs. When GPS was denied, these improvements increased up to 83.3 % over a standard kalman filter. In both simulation and experimentally, the Decentralized Collaborative Localization algorithm was shown to be a good approximation of a full state filter, while reducing required communication between vehicles. These results are promising in showing the efficacy of adding UWB ranging sensors to cars for collaborative and landmark localization, especially in GPS-denied environments. In the future, additional moving vehicles with additional tags will be tested in other challenging GPS denied environments.},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{ACM2017,
+  title    = {On the Periodicity of Irreducible Elements in Arithmetical Congruence Monoids},
+  journal  = {INTEGERS },
+  volume   = {17},
+  pages    = {A38},
+  year     = {2017},
+  url      = {https://arxiv.org/pdf/1606.00376.pdf},
+  author   = {Jacob Hartzer and Christopher O’Neill},
+  abstract = {Arithmetical congruence monoids, which arise in non-unique factorization theory,
+              are multiplicative monoids Ma,b consisting of all positive integers n satsfying the
+              modular equation n ⌘ a mod b. In this paper, we examine the asymptotic behavior
+              of the set of irreducible elements of Ma,b, and characterize in terms of a and b when
+              this set forms an eventually periodic sequence.},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{HARTZER2022404,
+  title    = {Initial steps in the classification of maximal mediated sets},
+  journal  = {Journal of Symbolic Computation},
+  volume   = {109},
+  pages    = {404-425},
+  year     = {2022},
+  issn     = {0747-7171},
+  doi      = {https://doi.org/10.1016/j.jsc.2020.07.013},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0747717120300687},
+  author   = {Jacob Hartzer and Olivia Röhrig and Timo {de Wolff} and Oğuzhan Yürük},
+  keywords = {Lattice, Maximal mediated set, Nonnegativity, Sum of nonnegative circuit polynomials, Sums of squares},
+  abstract = {Maximal mediated sets (MMS), introduced by Reznick, are distinguished subsets of lattice points in integral polytopes with even vertices. MMS of Newton polytopes of AGI-forms and nonnegative circuit polynomials determine whether these polynomials are sums of squares. In this article, we take initial steps in classifying MMS both theoretically and practically. Theoretically, we show that MMS of simplices are isomorphic if and only if the simplices generate the same lattice up to permutations. Furthermore, we generalize a result of Iliman and the third author. Practically, we fully characterize the MMS for all simplices of sufficiently small dimensions and maximal 1-norms. In particular, we experimentally prove a conjecture by Reznick for 2 dimensional simplices up to maximal 1-norm 150 and provide indications on the distribution of the density of MMS.},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@misc{hartzer2023online,
+  title         = {Online Multi-IMU Calibration Using Visual-Inertial Odometry},
+  author        = {Jacob Hartzer and Srikanth Saripalli},
+  year          = {2023},
+  eprint        = {2310.12411},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.RO},
+  abstract      = {Visual-inertial navigation systems are powerful in their ability to accurately estimate localization of mobile systems within complex environments that preclude the use of global navigation satellite systems. However, these navigation systems are reliant on accurate and up-to-date temporospatial calibrations of the sensors being used. As such, online estimators for these parameters are useful in resilient systems. This paper presents an extension to existing Kalman Filter based frameworks for estimating and calibrating the extrinsic parameters of multi-camera IMU systems. In addition to extending the filter framework to include multiple camera sensors, the measurement model was reformulated to make use of measurement data that is typically made available in fiducial detection software. A secondary filter layer was used to estimate time translation parameters without closed-loop feedback of sensor data. Experimental calibration results, including the use of cameras with non-overlapping fields of view, were used to validate the stability and accuracy of the filter formulation when compared to offline methods. Finally the generalized filter code has been open-sourced and is available online.},
+  selected      = {true},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
