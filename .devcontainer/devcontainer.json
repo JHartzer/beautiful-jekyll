@@ -2,7 +2,10 @@
     "name": "al-folio-env",
     "customizations": {
         "vscode": {
-            "extensions": []
+            "extensions": [
+                "mhutchie.git-graph",
+                "streetsidesoftware.code-spell-checker"
+            ]
         }
     },
     "build": {
