@@ -2,16 +2,16 @@
 layout: post
 title: How I built a Website using Jekyll
 date: 2020-06-23
-img: /assets/img/jekyll.png
+thumbnail: /assets/img/jekyll.png
 tags: Programming
 date: 2020-06-23
 description:
 tags:
 categories:
-giscus_comments: false
 related_posts: false
-related_publications:
 ---
+
+<img src="/assets/img/jekyll.png" alt="Jekyll" style="float:right;width:25%"/>
 
 A mechanical engineer with a website, how peculiar you might say! I promise it's
 easy and you can do the same. This is a static-site hosted on github pages that
@@ -23,7 +23,7 @@ from scratch, I would still be stuck in mid-2000's html land.
 ## Install Jekyll
 
 I would recommend following the jekyll 
-[Quickstart Guide](https://jekyllrb.com/docs/) for instructions on setting up a 
+[Quick Start Guide](https://jekyllrb.com/docs/) for instructions on setting up a 
 Ruby environment, bundler, and jekyll. This is a relatively painless process, 
 and can be done on any OS. 
 
@@ -37,11 +37,11 @@ or purchased. I forked my site template from Dean Attali's
 really expanded my perspective of what is possible using a static site. 
 Responsive design and consideration for phones were not things that I had 
 originally anticipated when I started looking into the css, but I am glad that 
-I had a foundation to modify and experiemnt with. 
+I had a foundation to modify and experiment with. 
 
 ## Advanced Generation 
 
-Jekyll uses the [Liquid](https://shopify.github.io/liquid/) templating language 
+Jekyll uses the [Liquid](https://shopify.github.io/liquid/) template language 
 to process templates. You can read jekyll's documentation 
 [here](https://jekyllrb.com/docs/liquid/). The biggest takeaways, in my opinion,
 are the use of liquid variables to iterate through build pages, and define

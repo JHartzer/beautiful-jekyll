@@ -1,14 +1,12 @@
 ---
 layout: post
 title:  "Collaborative Localization using Ultra-Wideband Ranging"
-img: /assets/img/uwb/uwb_collab.png
+thumbnail: /assets/img/uwb/uwb_collab.png
 tags: [Localization]
 date: 2020-10-05
 description:
 categories:
-giscus_comments: false
 related_posts: false
-related_publications:
 ---
 
 
@@ -95,7 +93,7 @@ The simulations showed that UWB measurements offered improvements to localizatio
 
 
 # Experimentation
-The filter framework was tested in Bryan, Texas using the Unmanned Systems Lab autonomous trolley. The Decwave EVK1000 evaluation boards were mounted alongside a VectorNav VN-300 and ArduSimple RTK GNSS. The trolley itself includes PACMod, a by-wire kit prepared by Autonomous Stuff, which gives access to wheel odometry and steering data.
+The filter framework was tested in Bryan, Texas using the Unmanned Systems Lab autonomous trolley. The Decawave EVK1000 evaluation boards were mounted alongside a VectorNav VN-300 and ArduSimple RTK GNSS. The trolley itself includes PACMod, a by-wire kit prepared by Autonomous Stuff, which gives access to wheel odometry and steering data.
 
 Using tripods, a second set of UWB ranging modules were placed in various experimental setups to either represent road landmarks, or a second vehicle.
 
@@ -103,9 +101,9 @@ As in the simulations, the addition of the two UWB sensors on the vehicle offere
 
 
 # Future Work
-Future work for this reserach includes
+Future work for this research includes
 
-- Experiemnts with additional tags and multiple moving vehicles
+- Experiments with additional tags and multiple moving vehicles
 - Explore transitional space between GPS and GPS-denied environments
 - Compare the decentralized approximation to the centralized method
 - Simulate the effects of delays in the system
@@ -113,7 +111,18 @@ Future work for this reserach includes
 In the future, testing will include more in-person experiments with multiple moving vehicles and a greater number of UWB tags. This would allow for better evaluation of truly cooperative localization using of vehicles using UWB and will validate the algorithm used in simulation. This will also explore the use of real-time varying covariance estimations in the update equations.
 
 
+# Citation
 
+```
+@inproceedings{2021_Vehicular_Teamwork,
+  author    = {Hartzer, Jacob and Saripalli, Srikanth},
+  booktitle = {2021 IEEE International Intelligent Transportation Systems Conference (ITSC)},
+  title     = {Vehicular Teamwork: Collaborative localization of Autonomous Vehicles},
+  year      = {2021},
+  pages     = {1077-1082},
+  doi       = {10.1109/ITSC48978.2021.9564981},
+}
+```
 
 # Related Works
 1.  L. Yao, Y. A. Wu, L. Yao, and Z. Z. Liao, “**An integrated IMU and UWB sensor based indoor positioning system**,” in _2017 International Conference on Indoor Positioning and Indoor Navigation (IPIN)_, pp. 1–8, 2017.

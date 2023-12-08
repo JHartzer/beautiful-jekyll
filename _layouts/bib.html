@@ -6,12 +6,12 @@
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-1 rounded center" src="{{ entry.preview }}">
           {%- else -%}
-            {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
+            {%- assign entry_path = entry.preview | prepend: '/assets/img/' -%}
             {% include figure.html
             path=entry_path
-            class="preview z-depth-1 rounded"
+            class="preview z-depth-1 rounded center"
             zoomable=false
             alt=entry.preview -%}
           {%- endif -%}
@@ -32,7 +32,7 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
-        <div class="title">{{entry.title}}</div>
+        <div class="title"><a href="http://doi.org/{{ entry.doi }}">{{entry.title}}</a></div>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}

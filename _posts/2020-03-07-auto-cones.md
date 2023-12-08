@@ -1,22 +1,22 @@
 ---
 layout: post
 title:  Autonomous Cone Placement
-img: /assets/img/ConeSetup.png
+thumbnail: /assets/img/ConeSetup.png
 tags: [Localization]
 date: 2020-03-07
 description:
 tags:
 categories:
-giscus_comments: false
 related_posts: false
-related_publications:
 ---
+
+<img src="/assets/img/ConeSetup.png" alt="cone" style="float:right;width:30%"/>
 
 The Auto Cone project is an effort to develop cones that are capable of localizing and placing themselves to improve safety conditions for highway workers. These cones utilize RTK GPS and onboard localization filtering to produce decimeter-level accuracy in placing themselves in road conditions. Additionally, they are capable of transitioning through GPS-denied environments such as under bridges or overpasses. Pictured are two of the cones and the real-time kinematic (RTK) base station.
 
-![cone](/assets/img/ConeSetup.png)
-
 # Problem:
+
+<img src="/assets/img/Kinematics.png" alt="Kinematics" style="float:right;width:30%"/>
 
 The goal of this project is to develop a robotic platform capable of automatically placing cones in a defined wedge shape behind the work vehicle within the starting lane. Specifically the cones shall: 
 - Place three cones in 40 foot increments in a wedge
@@ -28,17 +28,16 @@ The goal of this project is to develop a robotic platform capable of automatical
 - Cost less than $1,500 per cone unit
 - Be easy to use and require little training
 
+
 # Kinematics:
 
 The omnidirectional platform makes the system holonomic, which means that with only three motors, the system can smoothly and directly move between any two states. This allows orientation to be independently controlled from position, and makes the system unconstrained by initial conditions. This is very advantageous for pick and place when deploying. The image outlines the kinematics used to drive the cone's motion. 
 
-![Kinematics](/assets/img/Kinematics.png)
-
 # Sensor Fusion:
 
-Using a system of RTK GPS and a ground base station, the cone's acheive a much lower positon error than typical GPS for a relatively small increase in cost. 
+<img src="/assets/img/RTK.png" alt="RTK GPS" style="float:right;width:30%"/>
 
-![RTK GPS](/assets/img/RTK.png)
+Using a system of RTK GPS and a ground base station, the cone's achieve a much lower position error than typical GPS for a relatively small increase in cost. 
 
 Fusing these corrected GPS measurements with the higher rate encoders on the wheel motors provides the system with a high rate localization estimate that is robust in handling drift and sensor noise. 
 
@@ -56,4 +55,13 @@ IV2020 Presentation:
 
 # Citation:
 
-J. Hartzer and S. Saripalli, “Autocone:  An omnidirectional robot for lane-level cone placement,” inProceedings of the IEEE Intelligent Vehicles Symposium, (Las Vegas, NV), p. 440, 2020.
+```
+@inproceedings{2020_AutoCone,
+  author    = {Hartzer, Jacob and Saripalli, Srikanth},
+  booktitle = {2020 IEEE Intelligent Vehicles Symposium (IV)},
+  title     = {AutoCone: An OmniDirectional Robot for Lane-Level Cone Placement},
+  year      = {2020},
+  pages     = {1663-1668},
+  doi       = {10.1109/IV47402.2020.9304683},
+}
+```

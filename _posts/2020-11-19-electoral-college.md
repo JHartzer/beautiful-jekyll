@@ -1,15 +1,13 @@
 ---
 layout: post
 title: In Offense of the Electoral College
-img: /assets/img/EC.png
+thumbnail: /assets/img/EC.png
 tags: Opinion
 date: 2020-11-19
 description:
 tags:
 categories:
-giscus_comments: false
 related_posts: false
-related_publications:
 ---
 
 The Electoral College, in its current form, is undemocratic, effectively disenfranchises millions of Americans, discourages participation in government, and has drifted away from what the framers of our Constitution intended. A system that allows for a candidate to receive [less than 25% of the popular vote](https://www.npr.org/2016/11/02/500112248/how-to-win-the-presidency-with-27-percent-of-the-popular-vote), and still become president of the United States has fatal flaws and has no place in a modern democracy. Though we have yet to see something that egregious in an election, our refusal to modernize despite demographic trends will only exacerbate the disparities where twice in the past 20 years the president was not chosen by a majority of the American people. 
@@ -48,7 +46,7 @@ If the framers did think the current Electoral College was the proper way to sel
 
 # Conclusions
 
-There have been multiple constitutional amendments proposed to abolish the Electoral College. The closest we came to removing it was with the [Bayh–Celler amendment of 1969](https://en.wikipedia.org/wiki/Electoral_College_abolition_amendment). The amendment passed the house and even began debate in the senate, but was quickly filibustered by small states wanting to retain their power. Unable to receive the two-thirds majority needed to end the filibuster, the amendment failed. It is fitting that the last time we got close to removing this undemocratic institution, our efforts were stopped by a minority acting in their own best interest. The Electoral College is a holdover from undemocratic and racist ideals that the people must be further removed from the president than any other elected official. The inability of the Electoral College to grow orevolve in the past 100 years has exacerbated its flaws, and we are at a breaking point. When so many today are challenging the foundations of our democracy, we should not keep a system that causes people to lose faith in the election process. I want my vote to count. As do I want yours. Fix the Electoral College or get rid of it.
+There have been multiple constitutional amendments proposed to abolish the Electoral College. The closest we came to removing it was with the [Bayh–Celler amendment of 1969](https://en.wikipedia.org/wiki/Electoral_College_abolition_amendment). The amendment passed the house and even began debate in the senate, but was quickly filibustered by small states wanting to retain their power. Unable to receive the two-thirds majority needed to end the filibuster, the amendment failed. It is fitting that the last time we got close to removing this undemocratic institution, our efforts were stopped by a minority acting in their own best interest. The Electoral College is a holdover from undemocratic and racist ideals that the people must be further removed from the president than any other elected official. The inability of the Electoral College to grow or evolve in the past 100 years has exacerbated its flaws, and we are at a breaking point. When so many today are challenging the foundations of our democracy, we should not keep a system that causes people to lose faith in the election process. I want my vote to count. As do I want yours. Fix the Electoral College or get rid of it.
 
 # Additional Information
 

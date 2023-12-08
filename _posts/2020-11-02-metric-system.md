@@ -1,15 +1,13 @@
 ---
 layout: post
 title: The Cost of Outdated English Units
-img: /assets/img/metric.png
+thumbnail: /assets/img/metric.png
 tags: Opinion
 date: 2020-11-02
 description:
 tags:
 categories:
-giscus_comments: false
 related_posts: false
-related_publications:
 ---
 
 Burma, Liberia, and the US. Three countries that you don't normally hear grouped together in the same sentence. None share a continent, many would have trouble locating all three on a map. Yet there they are. The reason I have gathered these countries together in the opening sentence of this essay is that these are the only three remaining countries on the Earth that have not adopted the International System of Units, better known as the metric system.
@@ -35,7 +33,7 @@ There is a cost to the time it takes to convert units. This is both an issue for
 
 There is a cost to maintaining different standards for SI and customary units. Machinists need capabilities for two types of threads, which each have multiple thread specifications.
 
-To add to the frustration, we actually use SI units every day. Not even in the cheeky "seconds are SI units" way. By definition, every inch, milk, gallon, and pound that is ever measured, is actually measured in reference to the corresponding SI unit. Ever since the International Yand and Pound Agreement of July 1, 1959, customary units have been definitionally calculated from a standard in the metric system. Where scientists have been able to define SI units in terms of physical phenomena and first principles, there don't seem to be any that work in customary units to have done the same. So not only should we switch to the metric system, but it is actually foundational to the system we are already using. 
+To add to the frustration, we actually use SI units every day. Not even in the cheeky "seconds are SI units" way. By definition, every inch, milk, gallon, and pound that is ever measured, is actually measured in reference to the corresponding SI unit. Ever since the International Yard and Pound Agreement of July 1, 1959, customary units have been, by definition, calculated from a standard in the metric system. Where scientists have been able to define SI units in terms of physical phenomena and first principles, there don't seem to be any that work in customary units to have done the same. So not only should we switch to the metric system, but it is actually foundational to the system we are already using. 
 
 # Sources:
 
