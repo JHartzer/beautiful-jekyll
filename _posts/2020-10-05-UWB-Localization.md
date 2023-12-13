@@ -69,7 +69,7 @@ It is assumed that the relative update measurement to be a function of the state
 
 <img src="/assets/img/uwb/sc.png" alt="UWB Ranging" style="float:right;width:400px"/>
 
-In order to simulate various collaborative localization algorithms, a simulation framework that would be flexible in number of cars and networking was created in MatLab: [collab_localization repository](!https://github.com/unmannedlab/collab_localization). The simulation was designed to handle an indeterminate number of cars and configurations. Additionally, to facilitate the testing of collaborative localization, UWB tags can be treated as either fixed landmarks or mobile units on other vehicles. 
+In order to simulate various collaborative localization algorithms, a simulation framework that would be flexible in number of cars and networking was created in MatLab: [collab_localization](https://github.com/unmannedlab/collab_localization) repository. The simulation was designed to handle an indeterminate number of cars and configurations. Additionally, to facilitate the testing of collaborative localization, UWB tags can be treated as either fixed landmarks or mobile units on other vehicles. 
 
 
 #### Sensing Models
@@ -113,7 +113,9 @@ In the future, testing will include more in-person experiments with multiple mov
 
 # Citation
 
-```
+This content was presented at ITSC 2021 with slides available [here]({{site.baseurl}}/assets/pdf/2021-09-ITSC.pdf).
+
+```bibtex
 @inproceedings{2021_Vehicular_Teamwork,
   author    = {Hartzer, Jacob and Saripalli, Srikanth},
   booktitle = {2021 IEEE International Intelligent Transportation Systems Conference (ITSC)},

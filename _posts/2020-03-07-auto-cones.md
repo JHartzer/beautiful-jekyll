@@ -50,12 +50,12 @@ The results of this project were a functioning prototype system that is capable 
 Deployment: 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0hgOc2csaWE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-IV2020 Presentation:
+The IV 2020 presentation slides are available [here]({{site.baseurl}}/assets/pdf/2020-06-IV.pdf) and recording is available here:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cbcMwYcLUmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Citation:
 
-```
+```bibtex
 @inproceedings{2020_AutoCone,
   author    = {Hartzer, Jacob and Saripalli, Srikanth},
   booktitle = {2020 IEEE Intelligent Vehicles Symposium (IV)},

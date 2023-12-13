@@ -38,13 +38,12 @@ Testing was performed using a bar of 8020 with multiple camera mounts and a IMU/
 
 The code has been open-sourced and is available on [Github](https://github.com/unmannedlab/multi-cam-imu-cal). Feel free to fork, update and create pull requests where you see fit, so long as you adhere to the GPL3 license.
 
-## Preprint
-
-A preprint of the published paper can be found on [ArXiv](https://arxiv.org/abs/2209.13821).
-
 ## Citation:
 
-```
+This content was presented at SSRR 2022 with slides available [here]({{site.baseurl}}/assets/pdf/2021-09-ITSC.pdf).
+The published article is available on [arXiv](https://arxiv.org/abs/2209.13821), [IEEE](https://doi.org/10.1109/SSRR56537.2022.10018692).
+
+```bibtex
 @inproceedings{2022_Multi_Cal,
   author    = {Hartzer, Jacob and Saripalli, Srikanth},
   booktitle = {2022 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR)},
