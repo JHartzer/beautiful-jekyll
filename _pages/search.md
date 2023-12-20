@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /search/
-title: Search
+title: search
 description:
 nav: true
 nav_order: 5
