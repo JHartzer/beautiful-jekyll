@@ -1099,3 +1099,7 @@ iframe {
 .col-sm-2 {
   width: 120px;
 }
+
+input[type=text]:focus {
+  outline: 2px solid var(--global-hover-color);
+}
